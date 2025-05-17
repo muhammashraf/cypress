@@ -1,0 +1,26 @@
+{
+  "name": "init_cypress",
+  "version": "1.0.0",
+  "description": "test automation using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohamed ashraf",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "chai": "^5.2.0",
+    "cypress": "^12.17.4",
+    "mocha": "^11.1.0",
+    "shai": "^0.4.1"
+  },
+"devDependencies": {
+  "ts-loader": "^9.5.2"
+},
+"cypress-cucumber-preprocessor": {
+  "stepDefinitions": "cypress/support/step_definitions/*.js"
+}
+
+}
